@@ -26,3 +26,10 @@ for contador in range(10, 0, -1):
 for contador in range(0,21, 2):
     print(contador, end=". ") 
     
+# EXEMPLO 04
+
+print("\n")
+
+for contador in range( 501, 10):
+    print(contador, end=", ")
+        
