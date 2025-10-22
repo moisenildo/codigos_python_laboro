@@ -17,3 +17,4 @@ print("\nPrograma encerrado \n")
 print(valores2)        
     
     
+    
