@@ -1,52 +1,38 @@
-# Função - Modo 1 sem parametro e sem retorno
+#Função - Modo 1 sem parâmetro e sem retorno
+def menu():
+    print("--- MENU DO SISTEMA ---")
+    print("1- Consultar")
+    print("2- Inserir")
+    print("3- Excluir")
 
-def menu ():
-    print("---MENU DO SISTEMA ---")
-    print("1 - CONSULTA")
-    print("2 - INSERIR")
-    print("3 - EXCLUIR")
-# CHAMANDO FUNÇÃO
-menu()    
+# chamando a função
+menu()
 
-# FUNÇÃO MODO 2 com parametro e sem retorno
-
-def somar (num1,num2):
+#Função - Modo 2 com parâmetro e sem retorno
+def somar(num1, num2): 
     print(f"A soma é {num1 + num2}")
 
-# chamando a função soma
-
+#chamando a função somar
 somar(4,5)
 
-
-# Função - Modo 3 - sem parametro com retorno
+#Função - Modo 3 - sem parâmetro e com retorno
 def dobro():
     valor = int(input("Informe um valor numérico: "))
-    
+
     return valor * 2
 
-# Chamando a função
-print(f"O dobro é {dobro() + 10}")
+#chamando a função
+print(f"O dobro é {dobro()}")
 
-# função - modo 4 - com parametro e com retorno
-
+#Função - Modo 4 - com parâmetro e com retorno
 def triplo(valor):
     resposta = valor * 3
-    
+
     return resposta
 
-# Chamando a função
-print(f"O triplo do valor e {triplo(8)}")
+#chamando a função
+print(f"O triplo do valor é {triplo(8)}")
 
-# Chamando a função com valor dinamico
-
-numero = int(input("informe um valor:"))
+#chamando a função com valor dinâmico
+numero = int(input("Informe um valor: ")) 
 print(f"O triplo do valor é {triplo(numero)}")
-
-
-
-    
-
- 
-       
-    
-    
